@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap');
+
+
+body {
+      
+      background-color: white;
+      color: #111827; /* bg-gray-900 */
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    /* Simple underline animation for nav links */
+.link-underline {
+    position: relative;
+    padding-bottom: 4px;
+}
+.link-underline::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #9F1239;
+    transition: width 0.3s ease-in-out;
+}
+.link-underline:hover::after {
+    width: 100%;
+}
+
+.borel-regular {
+  font-family: "Borel", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.edu-nsw-act-cursive-hharryy {
+  font-family: "Edu NSW ACT Cursive", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
