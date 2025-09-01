@@ -11,6 +11,8 @@ import InitiativeBy from './InitiativeBy.jsx'
 import EventDetails from './EventDetails.jsx'
 import Objective from './Objective.jsx'
 import RegistrationForm from './RegistrationForm.jsx'
+import Loader from './Loader.jsx'
+import About from './About.jsx'
 
 export {
   Header,
@@ -25,5 +27,7 @@ export {
   InitiativeBy,
   EventDetails,
   Objective,
-  RegistrationForm
+  RegistrationForm,
+  Loader,
+  About
 }
